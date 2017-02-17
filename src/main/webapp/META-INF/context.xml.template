@@ -29,7 +29,7 @@
    <Context path="/vospaceBackend" docBase="vospace"
               crossContext="true" reloadable="true" debug="1">
 
-       <Resource name="jdbc/vosbackend"
+       <Resource name="jdbc/YOUR_DB_NAME"
                  auth="Container"
                  type="javax.sql.DataSource"
                  username="YOUR_DB_USER" password="YOUR_DB_USER_PASSWORD"
